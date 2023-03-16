@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    color: white;
+}
+.container-fluid{
+    width:100vw;
+    height: 100vh;
+    background-image: url(witch.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo a{
+    font-size: 40px;
+    text-decoration: none;
+  }
+  span{
+    color: #f9004d;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  nav ul li a:hover{
+    color: #f9004d;
+  }
+  .login{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  .login:hover{
+    color: #f9004d;
+  }
+  .btn{
+    background:transparent;
+    border-radius: 6px;
+    padding: 9px 25px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 18px;
+    color: #fff;
+  }
+  .btn:hover{
+    color: #fff;
+    background-color: #f9004d;
+  }
+  
+  .content{
+    margin-top: 10%;
+    max-width: 600px;
+  }
+  .content h2{
+    font-size: 60px
+  }
+  .content p{
+    margin-top: 10px;
+    line-height: 25px;
+  }
+  a{
+    color: #fff;
+  }
+  .link {
+    margin-top: 30px;
+  }
+  .seeMore{
+    color: #fff;
+    text-decoration: none;
+    background: #f9004d;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .link .seeMore:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .signin {
+    padding: 48px 24px;
+    margin: 20px;
+    color: #000032;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+  }
+
+  .pb_41 {
+    padding-bottom: 41px;
+  }
+
+  .input_email {
+    border: 1.5px solid #000032;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+
+    /* White/White 30 - #B3B3B3 */
+    color: #b3b3b3;
+  }
+
+  .or_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    /* Black/Black 80 - #333333 */
+    color: #333333;
+  }
+
+  .mt_24 {
+    margin-top: 24px;
+  }
+
+  .btn_sosmed {
+    background: #f2f2f2;
+    border-radius: 4px;
+  }
+
+  .btn_signin {
+    background: #f6a973;
+    border-radius: 8px;
+    height: 51px;
+  }
+
+  .btn_signup {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+
+    /* Brand/Orange/Orange - #F6A973 */
+    color: #f6a973;
+  }
+
+  .btn_signup:hover {
+    color: #000032;
+  }
+
+  .signin-btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f6a973;
+    text-decoration: none;
+  }
+  .btn-close-signin-modal {
+    position: relative;
+    left: 465px;
+    top: 10px;
+  }
+  
