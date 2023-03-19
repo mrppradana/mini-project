@@ -47,7 +47,10 @@
             data-bs-toggle="modal"
             data-bs-target="#signInModal"
             >Log in</a>
-            <a href="register.html" class="btn">Register</a>
+            <a class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#contactUsModal"
+            >Contact Us</a>
           </div>
         </nav>
         <div class="content">
@@ -102,7 +105,7 @@
             <div class="or_text mt_24" style="text-align: center">or</div>
     
             <div class="d-flex flex-column mt_24" style="gap: 12px">
-              <button type="button" class="btn btn-light btn_sosmed">
+              <button type="button" class="btn btn-light btn_sosmed" style="color: black;">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -117,7 +120,7 @@
                 </svg>
                 Continue with Google
               </button>
-              <button type="button" class="btn btn-light btn_sosmed">
+              <button type="button" class="btn btn-light btn_sosmed" style="color: black;">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -132,7 +135,7 @@
                 </svg>
                 Continue with Facebook
               </button>
-              <button type="button" class="btn btn-light btn_sosmed">
+              <button type="button" class="btn btn-light btn_sosmed" style="color: black;">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -152,6 +155,62 @@
               </button>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal contact us -->
+    <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="btn-close btn-close-signin-modal" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="background">
+            <div class="container">
+              <div class="screen">
+                <div class="screen-header">
+                  <div class="screen-header-left">
+                    <div class="screen-header-button close"></div>
+                    <div class="screen-header-button maximize"></div>
+                    <div class="screen-header-button minimize"></div>
+                  </div>
+                  <div class="screen-header-right">
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                  </div>
+                </div>
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>CONTACT</span>
+                      <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : ridhoputra34@gmail.com</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <div class="app-form">
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME" value="Insert Name">
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL">
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO">
+                      </div>
+                      <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE">
+                      </div>
+                      <div class="app-form-group buttons">
+                        <button class="app-form-button">CANCEL</button>
+                        <button class="app-form-button">SEND</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
